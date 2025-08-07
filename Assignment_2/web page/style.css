@@ -1,0 +1,134 @@
+h1 {
+    background-color: yellow;
+    margin-top: auto;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    display: block;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+#blog-posts h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 40px;
+    font-size: 2.5em;
+    border-bottom: 3px solid #FFD700;
+    padding-bottom: 10px;
+}
+
+.blog-post {
+    display: flex;
+    margin-bottom: 40px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.blog-post:hover {
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.post-image {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.post-content {
+    padding: 20px;
+    flex: 1;
+}
+
+.post-content h3 {
+    color: #333;
+    margin: 0 0 10px 0;
+    font-size: 1.5em;
+}
+
+.post-meta {
+    color: #666;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+.post-content p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.read-more {
+    background-color: #FFD700;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.read-more:hover {
+    background-color: #FFA500;
+}
+
+.blog-redirect {
+    text-align: center;
+    background: linear-gradient(135deg);
+    padding: 40px;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+.blog-redirect h3 {
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 2em;
+}
+
+.blog-redirect p {
+    color: #333;
+    margin-bottom: 25px;
+    font-size: 1.1em;
+}
+
+.blogger-link {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+
